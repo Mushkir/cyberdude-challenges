@@ -57,4 +57,4 @@ if (dataVerify.test(userAge)) {
 
 ## References
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/xG5IUyZvbDk&list=PL73Obo20O_7ihsIM5K-hHYPrcqkkdQcLa&index=29/0.jpg)](http://www.youtube.com/watch?v=xG5IUyZvbDk&list=PL73Obo20O_7ihsIM5K-hHYPrcqkkdQcLa&index=29 "JavaScript Switch-case (With Examples) )")
+[![https://www.youtube.com/watch?v=xG5IUyZvbDk&list=PL73Obo20O_7ihsIM5K-hHYPrcqkkdQcLa&index=29](http://img.youtube.com/vi/xG5IUyZvbDk&list=PL73Obo20O_7ihsIM5K-hHYPrcqkkdQcLa&index=29/0.jpg)](http://www.youtube.com/watch?v=xG5IUyZvbDk&list=PL73Obo20O_7ihsIM5K-hHYPrcqkkdQcLa&index=29 "JavaScript Switch-case (With Examples) )")
