@@ -1,4 +1,4 @@
-# Switch case (JavaScript Challenge)
+# Object (JavaScript Challenge)
 
 This challenge is part of free internship (FullStack Engineer) offered by [CyberDude Networks Pvt. Ltd.] (https://cyberdudenetworks.com/) You can find all the source code and live links below.
 
