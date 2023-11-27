@@ -16,6 +16,7 @@ This challenge is part of free internship (FullStack Engineer) offered by [Cyber
 > JavaScript Code
 
 > Getting input from user
+
 const userAge = prompt("Enter Your Age: ");
 
 > Verifying user entered value either number or text.
