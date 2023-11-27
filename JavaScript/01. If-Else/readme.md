@@ -49,4 +49,4 @@ if (dataVerify.test(userAge)) {
 
 ## References
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/WebG_D9-U80&list=PL73Obo20O_7ihsIM5K-hHYPrcqkkdQcLa&index=28/0.jpg)](http://www.youtube.com/watch?v=WebG_D9-U80&list=PL73Obo20O_7ihsIM5K-hHYPrcqkkdQcLa&index=28 "JavaScript If-Else (With Examples)")
+[![https://www.youtube.com/watch?v=WebG_D9-U80&list=PL73Obo20O_7ihsIM5K-hHYPrcqkkdQcLa&index=29](http://img.youtube.com/vi/WebG_D9-U80&list=PL73Obo20O_7ihsIM5K-hHYPrcqkkdQcLa&index=28/0.jpg)](http://www.youtube.com/watch?v=WebG_D9-U80&list=PL73Obo20O_7ihsIM5K-hHYPrcqkkdQcLa&index=28 "JavaScript If-Else (With Examples)")
