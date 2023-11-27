@@ -4,31 +4,31 @@ This challenge is part of free internship (FullStack Engineer) offered by [Cyber
 
 > Task #3: Create an Primitive Array and Reference Object Perform CRUD operations (Create, Read, Update, Delete)
 
-<!-- JavaScript Code -->
+> JavaScript Code
 
-// Creating an Object
+> Creating an Object
 let fruits = [
     { id: 1, fruitName: "Apple", price: 100 },
     { id: 2, fruitName: "Orange", price: 300 },
     { id: 3, fruitName: "Banana", price: 500 },
   ];
   
-  // Adding New
+> Adding New Items
   fruits.push(
     { id: 4, fruitName: "Grape", price: 800 },
     { id: 5, fruitName: "Jack", price: 1200 }
   );
   
-  // Update
-  // Need to search item
+> Update
+>Before update Need to search item, then need to do the update operation
   let findItm = fruits.find((findItem) => {
     return findItem.fruitName == "Grape";
   });
   
-  // Updating Grape Price as 100
+> Updating Grape Price as 100
   findItm.price = 100;
   
-  // Delete: Need to delete Banana's record
+> Delete: Need to delete Banana's record
   let delEl = fruits.filter((deleteEl) => {
       return deleteEl.fruitName != "Banana"
   })
@@ -36,17 +36,15 @@ let fruits = [
   fruits = delEl
   
   
-  // Read
+> Read
   console.log(fruits);
   
 
 ### Live Link ->
 
-<!-- Deploy and put the link -->
+> Deploy and put the link
 
 ## Acknoledgments
-
-## References
 
 ## References
 In lieu of referencing the Object-related series, I would like to bring your attention to our JavaScript series. I believe that delving into these materials will provide you with a more comprehensive understanding of the subject matter.

@@ -5,18 +5,18 @@ This challenge is part of free internship (FullStack Engineer) offered by [Cyber
 
 > Task #2: Create a Switch case with all possible conditions
 
-<!-- Question: -->
-Write a program that calculates the ticket price based on age with the following conditions: 
-Age below 12 pay a ticket price of 5, 
-Age below 18 pay a ticket price of 10, 
-Age below 60 pay a ticket price of 20, 
-Age over 60 play a ticket price of 15.
+> Question:
+> Write a program that calculates the ticket price based on age with the following conditions: 
+> Age below 12 pay a ticket price of 5, 
+> Age below 18 pay a ticket price of 10, 
+> Age below 60 pay a ticket price of 20, 
+> Age over 60 play a ticket price of 15.
 
-<!-- JavaScript Code -->
-<!-- Getting input from user -->
+> JavaScript Code
+> Getting input from user
 const userAge = prompt("Enter Your Age: ");
 
-<!-- Verifying user entered value either number or text. -->
+> Verifying user entered value either number or text.
 const dataVerify = /^\d+$/;
 
 if (dataVerify.test(userAge)) {
@@ -51,7 +51,7 @@ if (dataVerify.test(userAge)) {
 
 
 ### Live Link ->
-<!-- Deploy and put the link -->
+> Deploy and put the link
 
 ## Acknoledgments
 

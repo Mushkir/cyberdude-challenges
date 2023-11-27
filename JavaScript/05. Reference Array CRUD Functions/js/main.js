@@ -13,12 +13,13 @@ let fruits = [
   
   // Update
   // Need to search item
-  let findItm = fruits.find((findItem) => {
+  let findItem = fruits.find((findItem) => {
     return findItem.fruitName == "Grape";
   });
+  // console.log(findItem);
   
   // Updating Grape Price as 100
-  findItm.price = 100;
+  findItem.price = 100;
   
   // Delete: Need to delete Banana's record
   let delEl = fruits.filter((deleteEl) => {
