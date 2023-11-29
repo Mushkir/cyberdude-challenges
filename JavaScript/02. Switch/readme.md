@@ -1,27 +1,54 @@
-# Switch case (JavaScript Challenge)
+# cyberdude challenges
+## Challenge: Switch Case (JavaScript)
 
-This challenge is part of free internship (FullStack Engineer) offered by [CyberDude Networks Pvt. Ltd.] (https://cyberdudenetworks.com/) You can find all the source code and live links below.
+<a href="https://www.cyberdudenetworks.com/">
+  <img src="https://cyberdudenetworks.com/assets/img/assets/banner.png"/>
+</a>
+
+## Table of Contents
+
+- [Description](#description)
+- [Technologies Used and Learned](#technologies-used-and-learned)
+- [Code](#code)
+- [Internship](#internship)
+- [Acknowloedgment](#acknowloedgment)
+- [References](#references)
 
 
-> Task #2: Create a Switch case with all possible conditions
 
-> Question:
-> Write a program that calculates the ticket price based on age with the following conditions: 
-> Age below 12 pay a ticket price of 5, 
-> Age below 18 pay a ticket price of 10, 
-> Age below 60 pay a ticket price of 20, 
-> Age over 60 play a ticket price of 15.
+## Description
+### Task 01: Create a If-Else condition with all possible conditions
 
-> JavaScript Code
-> Getting input from user
+#### Write a program that calculates the ticket price based on age with the following conditions: 
+#### Age below 12 pay a ticket price of 5, 
+#### Age below 18 pay a ticket price of 10, 
+#### Age below 60 pay a ticket price of 20, 
+#### Age over 60 play a ticket price of 15.
+
+
+## Technologies Used and Learned
+
+| s.no | Technologies Used                    |
+| :--- | ------------------------------------ |
+| 01   | [Javascript] |
+
+
+## Code
+[Getting input from user]: #
 const userAge = prompt("Enter Your Age: ");
 
-> Verifying user entered value either number or text.
+
+[Verifying user entered value either number or text.]: #
+const userAge = prompt("Enter your age");\
 const dataVerify = /^\d+$/;
 
-if (dataVerify.test(userAge)) {
-  switch (true) {
+if (dataVerify.test(userAge)) 
+{
+  switch (true) 
+  {
+
     case userAge < 12: {
+
       console.log("Ticket Price is 5");
       break;
     }
@@ -43,15 +70,17 @@ if (dataVerify.test(userAge)) {
     default:
       console.log("Invalid");
   }
-} else {
+}
+else 
+{
   alert("Enter Numeric value");
 }
 
 
+## Internship
 
+This internship is provided by [CyberDude Networks Pvt. Ltd.](https://youtube.com/cyberdudenetworks) as part of the 6-Month Free Internship program, a skill development initiative organized to enhance participants' skills. Mentoring was provided by [Mr. Anbuselvan Rocky](https://instagram.com/anbuselvanrocky). For more information, [you can contact CyberDude Networks here](https://cyberdudenetworks.com).
 
-### Live Link ->
-> Deploy and put the link
 
 ## Acknoledgments
 

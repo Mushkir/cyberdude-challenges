@@ -1,50 +1,84 @@
-# If-Else (JavaScript Challenge)
+# cyberdude challenges
+## Challenge: If-Else (JavaScript)
 
-This challenge is part of free internship (FullStack Engineer) offered by [CyberDude Networks Pvt. Ltd.] (https://cyberdudenetworks.com/) You can find all the source code and live links below.
+<a href="https://www.cyberdudenetworks.com/">
+  <img src="https://cyberdudenetworks.com/assets/img/assets/banner.png"/>
+</a>
+
+## Table of Contents
+
+- [Description](#description)
+- [Technologies Used and Learned](#technologies-used-and-learned)
+- [Code](#code)
+- [Internship](#internship)
+- [Acknowloedgment](#acknowloedgment)
+- [References](#references)
 
 
-> Task #1: Create a If-Else condition with all possible conditions
 
-> JS Quiz:
+## Description
+### Task 01: Create a If-Else condition with all possible conditions
 
-> Write a program that calculates the ticket price based on age with the following conditions: 
-> Age below 12 pay a ticket price of 5, 
-> Age below 18 pay a ticket price of 10, 
-> Age below 60 pay a ticket price of 20, 
-> Age over 60 play a ticket price of 15.
+#### Write a program that calculates the ticket price based on age with the following conditions: 
+#### Age below 12 pay a ticket price of 5, 
+#### Age below 18 pay a ticket price of 10, 
+#### Age below 60 pay a ticket price of 20, 
+#### Age over 60 play a ticket price of 15.
 
-> JavaScript Code
 
-> Getting input from user
+## Technologies Used and Learned
 
+| s.no | Technologies Used                    |
+| :--- | ------------------------------------ |
+| 01   | [Javascript] |
+
+
+## Code
+[Getting input from user]: #
 const userAge = prompt("Enter Your Age: ");
 
-> Verifying user entered value either number or text.
+
+[Verifying user entered value either number or text.]: #
 const dataVerify = /^\d+$/; 
 
-function ticketCalculate(age) {
-  if (age < 12) {
+function ticketCalculate(age) 
+{
+  if (age < 12) 
+  {
     console.log(`You are under 12. Your ticket price is Rs. 5.00/-`);
-  } else if (age < 18) {
+
+  } else if (age < 18)
+
+  {
     console.log(`You are under 18. Your ticket price is Rs. 10.00/-`);
-  } else if (age < 60) {
+
+  } else if (age < 60)
+  
+  {
     console.log(`You are under 60. Your ticket price is Rs. 20.00/-`);
-  } else {
+
+  } else 
+
+  {
     console.log(`You are above 60. Your ticket price is Rs. 15.00/-`);
   }
 }
 
-if (dataVerify.test(userAge)) {
+[Checking the Condition and Calling function]: #
+if (dataVerify.test(userAge)) 
+{
   ticketCalculate(userAge);
-} else {
+
+} else 
+{
   alert("Enter Valid Number Value");
 }
 
 
+## Internship
 
+This internship is provided by [CyberDude Networks Pvt. Ltd.](https://youtube.com/cyberdudenetworks) as part of the 6-Month Free Internship program, a skill development initiative organized to enhance participants' skills. Mentoring was provided by [Mr. Anbuselvan Rocky](https://instagram.com/anbuselvanrocky). For more information, [you can contact CyberDude Networks here](https://cyberdudenetworks.com).
 
-### Live Link ->
-> Deploy and put the link
 
 ## Acknoledgments
 
