@@ -1,9 +1,40 @@
 //* Types of Functions:
-//*     - Expression
-//*     - Return
-//*     - Pass Arguments and Receive Parameters
-//*     - IIFE (Immediately Invoked Function Expression)
+//*     - Basic Function
+            /*
+            function functioName() {
+                 SetOfCodes...
+            }
+            */
 
+//*     - Expression
+            /*
+            const functioName = function() {
+                 SetOfCodes...
+            }
+            */
+//*     - Return
+            /*
+            const functioName = function() {
+                const a, b
+                !return a + b
+            }
+            */
+//*     - Pass Arguments and Receive Parameters
+            /*
+            const functioName = function(arguments) {
+                return arg = a0rguments
+            }
+            */
+//*     - IIFE (Immediately Invoked Function Expression)
+            /*
+            (
+                function() {
+                    SetOfCodes...
+                }
+            )()
+            */
+
+//!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //* Scenario: Daily Routine
 
@@ -52,14 +83,14 @@ function countActivities(...works) {
     const myActivity = [];
 
     const firstActivity = { name: "Task Pannanum", type: "Prior", duration: 60}
-    // const secondActivity = { name: "Research Report Eluthenum 😢", type: "Prior", duration: 60}
-    // const thirdAct = { name: "Project Work pannanum 😢😢😢", type: "Prior", duration: 100}
-    // const fourthAct = { name: "PHP Leaaring vere irukku; Athu pannanum", type: "Prior", duration: 100}
+    const secondActivity = { name: "Research Report Eluthenum 😢", type: "Prior", duration: 60}
+    const thirdAct = { name: "Project Work pannanum 😢😢😢", type: "Prior", duration: 100}
+    const fourthAct = { name: "PHP Leaaring vere irukku; Athu pannanum", type: "Prior", duration: 100}
 
     myActivity.push(firstActivity)
-    // myactivity.push(secondActivity)
-    // myactivity.push(thirdAct)
-    // myactivity.push(fourthAct)
+    myActivity.push(secondActivity)
+    myActivity.push(thirdAct)
+    myActivity.push(fourthAct)
 
 
     const showActivies = (myArray) => {
@@ -76,7 +107,7 @@ function countActivities(...works) {
     const myProductiveTotal = calcProductiveTime(myActivity)
     const breakAler = breakAlert(myProductiveTotal)
 
-    countActivities(firstActivity)
+    countActivities(firstActivity, secondActivity, thirdAct)
     console.log(breakAler);
 
 })()
