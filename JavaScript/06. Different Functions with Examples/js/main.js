@@ -22,7 +22,7 @@
 //*     - Pass Arguments and Receive Parameters
             /*
             const functioName = function(arguments) {
-                return arg = a0rguments
+                return arg = arguments
             }
             */
 //*     - IIFE (Immediately Invoked Function Expression)
@@ -85,7 +85,7 @@ function countActivities(...works) {
     const firstActivity = { name: "Task Pannanum", type: "Prior", duration: 60}
     const secondActivity = { name: "Research Report Eluthenum 😢", type: "Prior", duration: 60}
     const thirdAct = { name: "Project Work pannanum 😢😢😢", type: "Prior", duration: 100}
-    const fourthAct = { name: "PHP Leaaring vere irukku; Athu pannanum", type: "Prior", duration: 100}
+    const fourthAct = { name: "PHP Learning vere irukku; Athu pannanum", type: "Prior", duration: 100}
 
     myActivity.push(firstActivity)
     myActivity.push(secondActivity)
