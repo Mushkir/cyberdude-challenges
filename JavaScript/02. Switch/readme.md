@@ -19,11 +19,12 @@
 ## Description
 ### Task 01: Create a If-Else condition with all possible conditions
 
-#### Write a program that calculates the ticket price based on age with the following conditions: 
-#### Age below 12 pay a ticket price of 5, 
-#### Age below 18 pay a ticket price of 10, 
-#### Age below 60 pay a ticket price of 20, 
-#### Age over 60 play a ticket price of 15.
+#### &nbsp; Write a program that calculates the ticket price based on age with the following conditions:
+
+#### &nbsp; Age below 12 pay a ticket price of 5,
+#### &nbsp; Age below 18 pay a ticket price of 10,
+#### &nbsp; Age below 60 pay a ticket price of 20,
+#### &nbsp; Age over 60 play a ticket price of 15.
 
 
 ## Technologies Used and Learned
@@ -37,8 +38,8 @@
 [Getting input from user]: #
 const userAge = prompt("Enter Your Age: ");
 
-
 [Verifying user entered value either number or text.]: #
+```
 const userAge = prompt("Enter your age");\
 const dataVerify = /^\d+$/;
 
@@ -75,6 +76,7 @@ else
 {
   alert("Enter Numeric value");
 }
+```
 
 
 ## Internship
