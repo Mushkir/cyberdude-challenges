@@ -1,4 +1,4 @@
-# cyberdude challenges
+# Cyberdude Challenges
 
 ## Challenge: If-Else (JavaScript)
 

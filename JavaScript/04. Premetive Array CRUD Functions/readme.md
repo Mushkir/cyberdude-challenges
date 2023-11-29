@@ -1,49 +1,85 @@
-# Primitive (JavaScript Challenge)
+# Cyberdude Challenges
 
-This challenge is part of free internship (FullStack Engineer) offered by [CyberDude Networks Pvt. Ltd.] (https:>cyberdudenetworks.com/) You can find all the source code and live links below.
+## Challenge: CRUD (Create, Read, Update, Delete) in Primitive Array (JavaScript)
 
-> Task #3: Create an Primitive Array and Reference Object Perform CRUD operations (Create, Read, Update, Delete)
+<a href="https://www.cyberdudenetworks.com/">
+  <img src="https://cyberdudenetworks.com/assets/img/assets/banner.png"/>
+</a>
 
-> JavaScript Code:
+## Table of Contents
 
-> Primitive Array
+- [Description](#description)
+- [Technologies Used and Learned](#technologies-used-and-learned)
+- [Code](#code)
+- [Internship](#internship)
+- [Acknowloedgment](#acknowloedgment)
+- [References](#references)
+
+
+
+## Description
+### Task 03: Create a Primitive Array and Perfom CRUD Operation
+&nbsp; 📝 **Note:** The following tasks have been assigned to further enhance our JavaScript skills during your internship at [CyberDude Networks Pvt. Ltd.](https://www.cyberdudenetworks.com)
+
+## Technologies Used and Learned
+
+| S. No | Technologies Used                    |
+| :--- | ------------------------------------ |
+| 01   | [Javascript](./js/) |
+
+
+## Code
+
+```
+// Primitive Array
 const fruits = ["Apple","Jack","Banana"]
 
-> Adding New item as last element
+// Adding New item as last element
 fruits.push("Orange")
 
-> Adding new item as first element
+// Adding new item as first element
 fruits.unshift("Grapes")
 
-> To do: Update Banana as Mangosteen
-> Before update need to search the item
-const findElement = (element) => {
-return element === "Banana"
+// console.log(fruits);
+
+// To do: Update Banana as Mangosteen
+// Before update need to search the item
+const findElement = (element) => 
+{   
+    return element === "Banana"
 }
 
-> Updating the item
+
+
+// Updating the item
 const indexOfElement = fruits.findIndex(findElement)
+console.log(indexOfElement);
 fruits[indexOfElement] = "Mangosteen";
 
-> Delete Apple
-> Function for find index of searching item
+// Delete Apple
+// Function for find index of searching item
 const findDeleteEl = (deleteEl) => {
-return deleteEl === "Apple"
+    return deleteEl === "Apple"
 }
 
-> Deleting the item
+// Deleting the item
 const delIndex = fruits.findIndex(findDeleteEl)
 fruits.splice(delIndex,delIndex)
 
-> Directly index apply
-> fruits.splice(1,1)
+// Directly index apply
+// fruits.splice(1,1)
 
-> Reading Items on fruits Array
+// Reading Items on fruits Array
 console.log(fruits);
 
-### Live Link ->
+  
+```
 
-> Deploy and put the link
+
+## Internship
+
+This internship is provided by [CyberDude Networks Pvt. Ltd.](https://youtube.com/cyberdudenetworks) as part of the 6-Month Free Internship program, a skill development initiative organized to enhance participants' skills. Mentoring was provided by [Mr. Anbuselvan Rocky](https://instagram.com/anbuselvanrocky). For more information, [you can contact CyberDude Networks here](https://cyberdudenetworks.com).
+
 
 ## Acknoledgments
 

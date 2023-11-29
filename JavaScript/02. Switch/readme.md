@@ -1,4 +1,5 @@
-# cyberdude challenges
+# Cyberdude Challenges
+
 ## Challenge: Switch Case (JavaScript)
 
 <a href="https://www.cyberdudenetworks.com/">

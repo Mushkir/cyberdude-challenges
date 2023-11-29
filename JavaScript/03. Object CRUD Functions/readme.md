@@ -1,22 +1,46 @@
-# Object (JavaScript Challenge)
+# Cyberdude Challenges
 
-This challenge is part of free internship (FullStack Engineer) offered by [CyberDude Networks Pvt. Ltd.] (https:>cyberdudenetworks.com/) You can find all the source code and live links below.
+## Challenge: CRUD (Create, Read, Update, Delete) in Object (JavaScript)
+
+<a href="https://www.cyberdudenetworks.com/">
+  <img src="https://cyberdudenetworks.com/assets/img/assets/banner.png"/>
+</a>
+
+## Table of Contents
+
+- [Description](#description)
+- [Technologies Used and Learned](#technologies-used-and-learned)
+- [Code](#code)
+- [Internship](#internship)
+- [Acknowloedgment](#acknowloedgment)
+- [References](#references)
 
 
-> Task #2: Create an Object and Perform CRUD operations (Create, Read, Update, Delete)
-> JavaScript Code:
-Creating Object name as "person"
+
+## Description
+### Task 02: Create an Object and Perfom CRUD Operation
+&nbsp; 📝 **Note:** The following tasks have been assigned to further enhance our JavaScript skills during your internship at [CyberDude Networks Pvt. Ltd.](https://www.cyberdudenetworks.com)
+
+## Technologies Used and Learned
+
+| S. No | Technologies Used                    |
+| :--- | ------------------------------------ |
+| 01   | [Javascript](./js/) |
+
+
+## Code
+
+```
+// Task 02: Create an Object
 let person = {
     firstName: "Mohamed",
     lastName: "Mushkir",
     personAge: 27,
   
-  > Getter method
     get fullName() {
       return `${this.firstName} ${this.lastName}`;
     },
   
-  > Setter method
     set fullName(nameValue) {
       let newName = nameValue.split(" ");
       this.firstName = newName[0];
@@ -44,25 +68,31 @@ let person = {
       }
     },
   };
-  
-  > Updating Name using Set Method
+
+  // Updating Name using Set Method
   person.fullName = "Musakir";
   
-  > Showing First Name and Last Name
+  // Showing First Name and Last Name
   console.log(`First Name: ${person.firstName} 
   Last Name: ${person.lastName}`);
   console.log(`Full Name is: ${person.fullName}`);
+  // console.log(`Age of ${person.lastName} is ${person.personAge}`);
   
-  > Delete Operation
-  > delete person.personAge
+  // Delete Operation
+  delete person.personAge
   typeof person.personAge == "undefined" ? console.log(`Age is Deleted`) : console.log(`Age is ${person.personAge}`);
-
-  > Calling activities method to Show
+  
   person.activities();
+  
+  // person.activities();
+  
+```
 
 
-### Live Link ->
-> Deploy and put the link
+## Internship
+
+This internship is provided by [CyberDude Networks Pvt. Ltd.](https://youtube.com/cyberdudenetworks) as part of the 6-Month Free Internship program, a skill development initiative organized to enhance participants' skills. Mentoring was provided by [Mr. Anbuselvan Rocky](https://instagram.com/anbuselvanrocky). For more information, [you can contact CyberDude Networks here](https://cyberdudenetworks.com).
+
 
 ## Acknoledgments
 
