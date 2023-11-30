@@ -24,9 +24,9 @@
 
 ## Technologies Used and Learned
 
-| S. No | Technologies Used                    |
+| S. No | Technologies Used                   |
 | :--- | ------------------------------------ |
-| 01   | [Javascript](./js/) |
+| 01   | [Javascript](./js/)                  |
 
 
 
