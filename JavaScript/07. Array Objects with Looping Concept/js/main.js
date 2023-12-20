@@ -87,21 +87,21 @@ const listItems = () => {
 //* Calling function to For-Of
 // listItems()
 
-// While Loop
-// const isBookAvailable = findBook("Classic");
-// if(isBookAvailable) {
-//   console.log(
-//     `You searched: ${isBookAvailable.genre} type genre. So, here are the results:
+//! While Loop
+const isBookAvailable = findBook("Classc");
+if(isBookAvailable) {
+  console.log(
+    `You searched: ${isBookAvailable.genre} type genre. So, here are the results:
     
-//     ${"\t"}📚 Title of Book: ${isBookAvailable.title}
-//     ${"\t"}🖊️ Author: ${isBookAvailable.author}`
+    ${"\t"}📚 Title of Book: ${isBookAvailable.title}
+    ${"\t"}🖊️ Author: ${isBookAvailable.author}`
 
-//   );
-// } else {
+  );
+} else {
 
-//   console.log(`${isBookAvailable.genre} is not available at this moment`);
+   console.log(`${isBookAvailable.genre} is not available at this moment`);
 
-// }
+}
 
 // const array = [1,2,3,4,5,6,7,8,9,10]
 
