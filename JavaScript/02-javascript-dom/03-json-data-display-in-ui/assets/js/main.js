@@ -10,7 +10,7 @@ function displayInternsDetails(jsonData) {
     divEl.innerHTML = `<div class="bg-[#a7abb2] h-[200px] flex items-center gap-x-7 px-5 py-5 w-[550px] rounded-md">
         <img src="${
           element.github
-        }.png" class="w-[150px] h-[150px] object-cover rounded-full" alt="">
+        }.png" class="w-[150px] h-[150px] object-cover rounded-full" alt="${element.name}'s Image">
 
         <div>
 
