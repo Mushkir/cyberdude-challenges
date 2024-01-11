@@ -27,6 +27,7 @@ function getAllDatasInTableForm() {
         // Delete Button
         const deleteBtnEl = document.createElement("button")
   
+        const serialNumber = document.createElement("td")
         const firstNameCell = document.createElement("td")
         const lastNameCell = document.createElement("td")
         const contactNumCell = document.createElement("td")
@@ -35,7 +36,10 @@ function getAllDatasInTableForm() {
         const serviceCell = document.createElement("td")
         const dateCell = document.createElement("td")
         const deleteBtnCell = document.createElement("td")
-  
+        
+        serialNumber.classList.add("px-2", "py-1.5", "border")
+        serialNumber.textContent = `${0+1}`
+
         firstNameCell.classList.add("px-2", "py-1.5", "border");
         firstNameCell.textContent = element["first-name"]
   
@@ -43,7 +47,10 @@ function getAllDatasInTableForm() {
         lastNameCell.textContent = element["last-name"];
   
         contactNumCell.classList.add("px-2", "py-1.5", "border");
-        contactNumCell.textContent = element["contact-number"];
+        const contactNumLink = document.createElement("a")
+        contactNumLink.href = `tel:${element['contact-number']}`
+        contactNumLink.textContent = element['contact-number']
+        contactNumCell.append(contactNumLink)
         
         stateCell.classList.add("px-2", "py-1.5", "border");
         stateCell.textContent = element["country-state"];
@@ -69,7 +76,7 @@ function getAllDatasInTableForm() {
         deleteBtnCell.classList.add("px-2", "py-1.5", "border");
   
         deleteBtnCell.append(deleteBtnEl)
-        tblRowEl.append(firstNameCell, lastNameCell, contactNumCell, stateCell, provinceCell, serviceCell, dateCell, deleteBtnCell)
+        tblRowEl.append(serialNumber, firstNameCell, lastNameCell, contactNumCell, stateCell, provinceCell, serviceCell, dateCell, deleteBtnCell)
   
         newFinalRow.push(tblRowEl)
       });

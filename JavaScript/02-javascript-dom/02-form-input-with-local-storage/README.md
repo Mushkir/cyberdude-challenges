@@ -22,7 +22,13 @@ User need to enter details and it need to store on LocalStorage and show the det
 
 ### Screenshots
 
-> Will be updated shortly!
+![Screenshot - 01](./screenshots/1.png)
+![Screenshot - 02](./screenshots/2.png)
+![Screenshot - 03](./screenshots/3.png)
+![Screenshot - 04](./screenshots/4.png)
+![Screenshot - 05](./screenshots/5.png)
+
+
 
 ### TODOs:
 

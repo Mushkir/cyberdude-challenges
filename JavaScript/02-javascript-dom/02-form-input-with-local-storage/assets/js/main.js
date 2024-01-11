@@ -30,7 +30,7 @@ validator.addField(
   ],
   {
     errorLabelStyle: {
-      color: "#e34444",
+      color: "#ffb2b2",
     },
   }
 );
@@ -53,7 +53,7 @@ validator.addField(
   ],
   {
     errorLabelStyle: {
-      color: "#e34444",
+      color: "#ffb2b2",
     },
   }
 );
@@ -79,7 +79,7 @@ validator.addField(
   ],
   {
     errorLabelStyle: {
-      color: "#e34444",
+      color: "#ffb2b2",
     },
   }
 );
@@ -93,7 +93,7 @@ validator.addField(
   ],
   {
     errorLabelStyle: {
-      color: "#e34444",
+      color: "#ffb2b2",
     },
   }
 );
@@ -107,7 +107,7 @@ validator.addField(
   ],
   {
     errorLabelStyle: {
-      color: "#e34444",
+      color: "#ffb2b2",
     },
   }
 );
@@ -121,7 +121,7 @@ validator.addField(
   ],
   {
     errorLabelStyle: {
-      color: "#e34444",
+      color: "#ffb2b2",
     },
   }
 );
@@ -135,7 +135,7 @@ validator.addField(
   ],
   {
     errorLabelStyle: {
-      color: "#e34444",
+      color: "#ffb2b2",
     },
   }
 );
@@ -175,16 +175,3 @@ validator.onSuccess(() => {
   // Navigate to all_details.html page to show All Patient Booking details
   window.open("all_details.html", "_self");
 });
-
-// validator.onSuccess(() => {
-
-//   // Todo: If the validation success, when the user clicks Show Details button, need to run redirectAllDetails()
-//   showDetailsBtn.addEventListener("click", redirectAllDetails);
-
-// })
-
-
-// // Todo: Navigate to all_details.html page to show All Patient Booking details
-// function redirectAllDetails() {
-  // window.open("all_details.html", "_self");
-// }

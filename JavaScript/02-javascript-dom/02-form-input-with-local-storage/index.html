@@ -33,10 +33,18 @@
         </div>
       </a>
 
-      <!-- Contact Us -->
-      <div>
-        <a href="https://www.cyberdudenetworks.com/" target="_blank"
+     
+      <div class="flex items-center gap-x-8">
+        <!-- Queries -->
+        <a href="./all_details.html" target="_blank"
           class="bg-[#03312E] text-[#E8ECEC] px-3 py-1.5 rounded hover:bg-[#355A57] hover:transition 500"
+        > <i class="fa-solid fa-list mr-1"></i>
+          Queries
+        </a>
+
+         <!-- Contact Us -->
+        <a href="https://www.cyberdudenetworks.com/" target="_blank"
+          class="bg-[#355a57] text-[#E8ECEC] px-3 py-1.5 rounded hover:bg-[#03312E] hover:transition 500"
         >
           Contact Us
         </a>
@@ -64,24 +72,26 @@
         <form id="bookingForm">
           <!-- First Name -->
           <div class="display-flex mb-4">
-            <label for=" first-name" class="label-options">First Name*</label>
+            <label for=" first-name" class="label-options">First Name<span class="text-[#ff9999]">*</span></label>
             <input
               type="text"
               name="first-name"
               id="first-name"
               class="input-options"
+              placeholder="Enter your First Name"
               required
             />
           </div>
 
           <!-- Last Name -->
           <div class="display-flex mb-4">
-            <label for="last-name" class="label-options">Last Name*</label>
+            <label for="last-name" class="label-options">Last Name<span class="text-[#ff9999]">*</span></label>
             <input
               type="text"
               name="last-name"
               id="last-name"
               class="input-options"
+              placeholder="Enter your Last Name"
               required
             />
           </div>
@@ -89,20 +99,21 @@
           <!-- Phone Number -->
           <div class="display-flex mb-4">
             <label for="contact-number" class="label-options"
-              >Contact Number*</label
+              >Contact Number<span class="text-[#ff9999]">*</span></label
             >
             <input
               type="text"
               name="contact-number"
               id="contact-number"
               class="input-options"
+              placeholder="Enter your Contact Number"
               required
             />
           </div>
 
           <!-- State -->
           <div class="display-flex mb-4">
-            <label for="country-state" class="label-options">State*</label>
+            <label for="country-state" class="label-options">State<span class="text-[#ff9999]">*</span></label>
             <select
               id="country-state"
               name="country-state"
@@ -139,7 +150,7 @@
 
           <!-- Province -->
           <div class="display-flex mb-4">
-            <label for="province-ist" class="label-options">Province*</label>
+            <label for="province-ist" class="label-options">Province<span class="text-[#ff9999]">*</span></label>
             <select
               name="province-ist"
               id="province-list"
@@ -157,10 +168,11 @@
               <option value="Western">Western</option>
             </select>
           </div>
+          <a></a>
 
           <!-- Service -->
           <div class="display-flex mb-4">
-            <label for="service-list" class="label-options">Service*</label>
+            <label for="service-list" class="label-options">Service<span class="text-[#ff9999]">*</span></label>
             <select
               name="service-list"
               class="input-options"
@@ -184,7 +196,7 @@
 
           <!-- Date -->
           <div class="display-flex mb-4">
-            <label for="date-of-booking" class="label-options">Date*</label>
+            <label for="date-of-booking" class="label-options">Date<span class="text-[#ff9999]">*</span></label>
             <input
               type="datetime-local"
               name="date-of-booking"
@@ -196,10 +208,10 @@
 
           <div class="mt-10 mb-24">
             <button
-              class="bg-red-500 text-[#E8ECEC] w-full p-4 rounded-md"
+              class="bg-red-500 text-[#E8ECEC] text-xl w-full p-4 rounded-md"
               id="showDetailsBtn"
             >
-              Show Details
+              Add Booking
             </button>
             <!-- <button id="showDetailsBtn" class="bg-red-500 text-[#E8ECEC] w-full p-4 rounded-md">Show Details</button> -->
           </div>
